@@ -1,9 +1,10 @@
 
 public class Primer {
+
 	public int findFirst(int[] x, int y) {
 		for (int i = 0; i < x.length - 1; i++) {
 			if (x[i] == y) {
-				return y;
+				return i;
 			}
 		}
 		return -1;
